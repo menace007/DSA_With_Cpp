@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 void PrintArr(int arr[], int index, int n){
-    if(index == n){
+    if(index == n){//Base condition
         return;
     }
     cout<<arr[index]<<" ";
